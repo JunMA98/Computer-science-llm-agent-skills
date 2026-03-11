@@ -1,12 +1,11 @@
 # Computer Science Scientific Skills
 
-![Curated Skills](https://img.shields.io/badge/Curated_Skills-34-2ea44f)
-![Custom Skills](https://img.shields.io/badge/Custom_Skills-10-1f6feb)
-![Public Skills](https://img.shields.io/badge/Public_Skills-44-8250df)
+![Skills](https://img.shields.io/badge/Skills-44-2ea44f)
+![Install](https://img.shields.io/badge/Install-copy_skills%2F*-1f6feb)
 ![Language](https://img.shields.io/badge/Language-Chinese--mirror-ffb000)
 ![Focus](https://img.shields.io/badge/Focus-CS_Research_Workflows-0969da)
 
-一个面向计算机科研、学术写作、实验工作流与研究型软件工程的 curated skills 仓库。
+一个面向计算机科研、学术写作、实验工作流与研究型软件工程的 skills 仓库。
 
 **语言：** [English](README.md) · **中文**
 
@@ -24,23 +23,23 @@
 <a id="repo-overview"></a>
 ## 这个仓库是什么
 
-这个仓库是一个**面向工作流的公开 skills 集合**，主要服务于：
+这个仓库是一个面向工作流的公开 skills 集合，主要服务于：
 
 - 计算机科研人员
 - 计算机博士生
 - research engineer
 - 需要在论文、实验、代码与发布之间来回切换的 developer-researcher
 
-它基于本地上游 skill 池构建，但**不是镜像仓库**，也不是一个泛科学技能大杂烩。公开目录只保留那些真正适合 CS 研究与编程工作的能力，例如：文献综述、论文写作、benchmark 设计、实验分析、模型工作流、agent 开发，以及 GitHub 发布前的仓库清理。
+它围绕计算机科研里反复出现的任务设计，例如：文献综述、论文写作、benchmark 设计、实验分析、模型工作流、agent 开发，以及 GitHub 发布前的仓库清理。
 
 <a id="why-use-this-repo"></a>
 ## 为什么使用这个仓库
 
-- **为 CS 工作流而策展**：关注的是计算机研究者反复会做的任务，而不是泛科学覆盖。
-- **更少噪音，更高杠杆**：和你的方向弱相关或不适合公开发布的上游内容不会进入公开表面。
-- **不仅有库技能，也有工作流技能**：补齐了 benchmark 设计、实验追踪、代码复现、reviewer response、release prep 等上游缺口。
-- **更适合 agent 辅助工作**：帮助 coding / research agent 在论文、实验、代码和文档之间更稳定地切换。
-- **更容易浏览与选择**：公开文档同时提供技能目录视图和任务入口视图。
+- **聚焦 CS 工作流**：面向计算机研究者和开发者真正反复会做的任务。
+- **适合 agent 辅助工作**：这些 skills 的组织方式适合 coding / research agent 直接使用。
+- **安装方式简单**：所有可安装的 skills 都直接放在一个 [`skills/`](skills/) 目录里。
+- **浏览方式清晰**：既可以按目录看，也可以按任务看。
+- **同时覆盖工具和工作流**：既有偏库和工具的技能，也有偏研究流程的技能。
 
 ## 适合谁
 
@@ -56,14 +55,11 @@
 <a id="whats-included"></a>
 ## 仓库包含什么
 
-- [`skills/curated/`](skills/curated/) 中有 `34` 个精选上游技能
-- [`skills/custom/`](skills/custom/) 中有 `10` 个原创工作流技能
-- 当前公开技能总数为 `44`
+- [`skills/`](skills/) 下共有 `44` 个公开 skills
+- 一个可以直接整包复制的安装目录结构
+- 一个记录每个 skill 的 `Primary Category`、`Task Tags` 和 `Type` 的公开索引
 
-公开技能分成两类：
-
-- **Curated**：从上游筛选并在需要时重写后的技能
-- **Custom**：为了补齐真实 CS 研究工作流缺口而原创新增的技能
+如果你关心某个 skill 属于 `Curated` 还是 `Custom`，可以直接看 [Skills Index](docs/skills-index.md)。
 
 ## 工作流覆盖范围
 
@@ -83,29 +79,18 @@
 <a id="getting-started"></a>
 ## 如何开始
 
-1. 先看 [`docs/skills-index.md`](docs/skills-index.md)，按分类、标签和用途找到相关 skills。
-2. 如果你是从任务出发，例如写论文、做 benchmark 或清理 repo，就看 [`docs/usage-guide.md`](docs/usage-guide.md)。
-3. 从 [`skills/curated/`](skills/curated/) 或 [`skills/custom/`](skills/custom/) 中挑出当前真正需要的少量 skills。
-4. 只把这些 skill 文件夹复制到你的 agent 本地 skills 目录或项目级 skills 目录。
-
-这个仓库面向的是那些能够在本地发现并使用 skill 文件夹的 coding / research agent 环境。
+1. 如果你想用最简单的方式，直接把 [`skills/`](skills/) 里的全部内容复制到你的 agent skills 目录。
+2. 如果你想用更精简的方式，先看 [`docs/skills-index.md`](docs/skills-index.md) 或 [`docs/usage-guide.md`](docs/usage-guide.md)，再只复制需要的 skills。
+3. 如果 agent 不会自动发现新 skills，就重启或重新加载它。
 
 <a id="how-to-use-these-skills"></a>
 ## 如何使用这些 skills
 
-### 第一步：先选出你需要的 skills
+### 第一步：把全部 skills 复制到你的 skills 目录
 
-先根据当前任务挑出一小组最相关的 skills。
+把 [`skills/`](skills/) 里的文件夹复制到下面这些常见目录之一。你可以选择全局安装，也可以只在单个项目里安装。
 
-- 如果你想按分类、标签和用途浏览，就看 [`docs/skills-index.md`](docs/skills-index.md)。
-- 如果你是从任务出发，例如写论文、做 benchmark 或清理 repo，就看 [`docs/usage-guide.md`](docs/usage-guide.md)。
-- 对大多数单次任务来说，先选 `1-3` 个 skills 就够了。
-
-### 第二步：复制到你的 skills 目录
-
-把 [`skills/curated/`](skills/curated/) 或 [`skills/custom/`](skills/custom/) 中单独的 skill 文件夹复制到下面这些常见目录之一。你可以选择全局安装，也可以只在单个项目里安装。
-
-**全局安装**（推荐给会在多个项目里复用的 skills）：
+**全局安装**（如果你希望所有项目都能直接用到这套 skills，推荐这种方式）：
 
 | Tool | Directory |
 | --- | --- |
@@ -114,7 +99,7 @@
 | Codex | `~/.codex/skills/` |
 | Gemini CLI | `~/.gemini/skills/` |
 
-**项目级安装**（推荐给只想在某一个仓库里使用的 skills）：
+**项目级安装**（如果你希望 skills 只在一个项目中生效，推荐这种方式）：
 
 | Tool | Directory |
 | --- | --- |
@@ -123,49 +108,44 @@
 | Codex | `.codex/skills/` |
 | Gemini CLI | `.gemini/skills/` |
 
-如果你使用的 agent 采用不同的目录约定，就把同样的 skill 文件夹复制到那个工具实际配置的 skills 目录里。
-
-### 第三步：只复制你真正要用的 skills
+### 第二步：复制 `skills/` 里的全部内容
 
 **示例：给 Cursor 做全局安装**
 
 ```bash
-cp -r Computer-science-scientific-skills/skills/curated/literature-review ~/.cursor/skills/
-cp -r Computer-science-scientific-skills/skills/curated/scientific-writing ~/.cursor/skills/
+cp -r Computer-science-scientific-skills/skills/* ~/.cursor/skills/
 ```
 
 **示例：给 Claude Code 做全局安装**
 
 ```bash
-cp -r Computer-science-scientific-skills/skills/custom/benchmark-design ~/.claude/skills/
-cp -r Computer-science-scientific-skills/skills/custom/experiment-tracking ~/.claude/skills/
+cp -r Computer-science-scientific-skills/skills/* ~/.claude/skills/
 ```
 
 **示例：给 Codex 做全局安装**
 
 ```bash
-cp -r Computer-science-scientific-skills/skills/custom/research-planning ~/.codex/skills/
-cp -r Computer-science-scientific-skills/skills/curated/scientific-writing ~/.codex/skills/
+cp -r Computer-science-scientific-skills/skills/* ~/.codex/skills/
 ```
 
 **示例：给 Gemini CLI 做全局安装**
 
 ```bash
-cp -r Computer-science-scientific-skills/skills/custom/repo-cleanup ~/.gemini/skills/
-cp -r Computer-science-scientific-skills/skills/custom/github-release-prep ~/.gemini/skills/
+cp -r Computer-science-scientific-skills/skills/* ~/.gemini/skills/
 ```
 
 **示例：项目级安装**
 
 ```bash
 mkdir -p .codex/skills
-cp -r /path/to/Computer-science-scientific-skills/skills/custom/agent-coding .codex/skills/
-cp -r /path/to/Computer-science-scientific-skills/skills/curated/transformers .codex/skills/
+cp -r /path/to/Computer-science-scientific-skills/skills/* .codex/skills/
 ```
 
-### 第四步：在 prompt 里使用这些 skills
+如果你更想要一个精简安装，也可以只复制部分 skill 文件夹，而不是整个目录。
 
-安装好这些文件夹之后，正常向 agent 描述任务即可。如果你希望它更明确地调用某些 skills，可以在 prompt 中直接点名。
+### 第三步：在 prompt 中使用这些 skills
+
+安装好这些文件夹之后，正常向 agent 描述任务即可。如果你希望更明确地控制它调用哪些 skills，可以在 prompt 里直接点名。
 
 Prompt 示例：
 
@@ -217,24 +197,16 @@ Prompt 示例：
 先使用 `repo-cleanup`，再根据文档与整理需求补 `github-release-prep` 和 `markitdown`。
 这条路径适合把一个混乱的研究仓库整理成更适合公开发布和长期维护的形式。
 
-## 这个仓库和上游有什么不同
-
-- 它是**筛选后的集合**，不是镜像。
-- 它围绕的是**CS 科研与编程工作流**，不是泛科学领域覆盖。
-- 导入的 skills 在必要时会被**重写**，以更贴近 CS 场景。
-- 公开集合中加入了**上游没有很好覆盖的原创工作流技能**。
-- 文档结构围绕的是**任务选择与实用浏览**，而不是单纯的原始清单展示。
-
 <a id="attribution-and-license-notes"></a>
 ## 来源与许可说明
 
-这个公开仓库同时包含上游整理内容和原创补充内容。
+这个仓库同时包含原创内容和整理改写后的内容。
 
 - 来源追踪与归属说明：[ATTRIBUTION.md](ATTRIBUTION.md)
-- 公开发布提醒与约束：[NOTICE.md](NOTICE.md)
+- 公开发布提醒：[NOTICE.md](NOTICE.md)
 - 仓库级 license：[LICENSE](LICENSE)
 
-本仓库中由本项目原创的策展结构、文档与 custom skills 采用 MIT License。仓库中包含的上游整理内容与第三方材料，仍分别受其各自 license、notice 与 attribution 要求约束，具体以原始元数据和本仓库中的归属说明为准。
+本仓库中由本项目原创的策展结构、文档与仓库自带 skills 采用 MIT License。仓库中包含的改写内容与第三方材料，仍分别受其各自 license、notice 与 attribution 要求约束，具体以原始元数据和本仓库中的归属说明为准。
 
 ## 当前状态
 

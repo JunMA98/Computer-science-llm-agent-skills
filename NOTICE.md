@@ -1,22 +1,15 @@
 # Notice
 
-This repository contains a public subset of upstream-derived skills that were selected, reorganized, and in some cases rewritten for computer science research and programming workflows.
+This repository contains both original materials and adapted materials for computer science research and programming workflows.
 
-## Scope of this public repository
+## Public structure
 
-- `34` upstream-derived skills are included in `skills/curated/`.
-- `10` original workflow skills are included in `skills/custom/`.
-- The upstream reference pool used during curation was kept outside this published repository and was not modified in place.
+- All installable skills live directly under `skills/`.
+- The public skill catalog and type labels are documented in `docs/skills-index.md`.
+- Source tracking for adapted materials is documented in `ATTRIBUTION.md`.
 
 ## License and redistribution notes
 
 - The repository-level `LICENSE` applies to original repository-authored materials unless a file or subdirectory states otherwise.
-- Upstream-derived and third-party materials remain subject to their own licenses, terms, and attribution requirements.
-- Users are responsible for reviewing the `license` metadata inside each copied skill's `SKILL.md` and any referenced upstream terms before redistribution or commercial use.
-
-## Selection constraints
-
-- Some potentially useful skills were intentionally excluded because they were not central to the CS-focused public scope.
-- Some upstream skills were not copied because their licensing status was proprietary, unclear, or otherwise unsuitable for inclusion in this public release.
-
-See `ATTRIBUTION.md` for source tracking and copied-skill provenance.
+- Some included materials remain subject to their own licenses, notices, and attribution requirements.
+- Before redistribution or commercial use, review the `license` metadata inside each skill's `SKILL.md` and any referenced upstream terms.

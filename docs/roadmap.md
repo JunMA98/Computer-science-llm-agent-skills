@@ -1,10 +1,10 @@
-﻿# Roadmap
+# Roadmap
 
 ## Current state
 
 - Public project folder created.
 - Round 1 screening completed for five research-paper-related skills.
-- Four selected skills copied into `skills/curated/`.
+- The first batch of selected skills copied into `skills/`.
 
 ## Next steps
 

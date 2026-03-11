@@ -1,12 +1,12 @@
 # Skill Landscape
 
-This document analyzes the currently selected public skills and groups them by capability rather than by upstream folder name.
+This document analyzes the current public skills and groups them by capability rather than by folder layout.
 
 ## 1. Research planning and project shaping
 
 | Coverage | Skills | Analysis |
 | --- | --- | --- |
-| newly added | `research-planning` | This closes a major gap in the curated set. The selected upstream skills were good at execution tasks, but weak at turning vague research ideas into scoped plans and milestones. |
+| newly added | `research-planning` | This closes a major gap in the public set. The existing skills were good at execution tasks, but weak at turning vague research ideas into scoped plans and milestones. |
 
 ## 2. Literature review and references
 
@@ -58,4 +58,4 @@ This document analyzes the currently selected public skills and groups them by c
 
 ## Summary
 
-The selected upstream skills gave the repository strong foundations in writing, data work, visualization, and ML tooling. The new custom skills were mainly needed in places where a CS researcher needs workflow structure rather than library reference material.
+The selected skills gave the repository strong foundations in writing, data work, visualization, and ML tooling. The repository-authored workflow skills were mainly needed in places where a CS researcher needs workflow structure rather than library reference material.

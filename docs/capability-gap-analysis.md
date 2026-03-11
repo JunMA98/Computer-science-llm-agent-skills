@@ -1,6 +1,6 @@
 # Capability Gap Analysis
 
-This document identifies the important workflow capabilities that were missing after the curated upstream screening and records the custom skills created to fill them.
+This document identifies important workflow capabilities that were missing from the initial public skill set and records the additional skills created to fill them.
 
 | Missing capability | Why it matters for CS research | Previous state | New skill created |
 | --- | --- | --- | --- |

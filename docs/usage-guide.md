@@ -1,20 +1,15 @@
 # Usage Guide
 
-Use this guide when you do **not** want to browse the repository skill-by-skill and instead want a fast path from a workflow need to the right public skills.
+Use this guide when you do not want to browse the repository skill-by-skill and instead want a fast path from a workflow need to the right public skills.
 
 ## Read the Public Metadata First
 
-The public docs use three shared metadata fields:
+The public docs use two main metadata fields:
 
 - `Primary Category`: the main home of a skill in [taxonomy.md](taxonomy.md)
 - `Task Tags`: short labels such as `writing`, `paper-review`, `benchmark`, or `agents`
-- `Type`: whether the skill is `Curated` or `Custom`
 
-Use them together:
-
-- start with `Primary Category` when you know the kind of work
-- use `Task Tags` when you know the immediate workflow
-- use `Type` when you want either stable upstream-derived tools (`Curated`) or workflow-native additions (`Custom`)
+The [skills index](skills-index.md) also records a `Type` field (`Curated` or `Custom`) for provenance, but you usually do not need it to start using the skills.
 
 ## Start From Your Task
 
@@ -51,38 +46,6 @@ Use this route when you know the general class of work but not the exact skill y
 | Mathematical & Algorithmic Tools | “How do I reason about the math or graph structure?” | `sympy`, `networkx` |
 
 For the full inventory behind those categories, use [skills-index.md](skills-index.md).
-
-## Start From Skill Type
-
-### Curated
-
-Use `Curated` skills when you want:
-
-- upstream-derived tools that survived CS-focused screening
-- mature library or workflow references that are already directly useful
-- a stable base for common tasks such as writing, plotting, ML, statistics, and visualization
-
-Examples:
-
-- `scientific-writing`
-- `transformers`
-- `polars`
-- `scientific-slides`
-
-### Custom
-
-Use `Custom` skills when you want:
-
-- workflow support that upstream did not cover well
-- explicit research-process structure rather than library reference material
-- tasks such as planning, benchmark discipline, reproduction, rebuttal, or release prep
-
-Examples:
-
-- `research-planning`
-- `benchmark-design`
-- `experiment-tracking`
-- `github-release-prep`
 
 ## Recommended Navigation Paths
 
