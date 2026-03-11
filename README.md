@@ -1,11 +1,11 @@
-# Computer Science Scientific Skills
+# Computer Science LLM Agent Skills
 
 ![Skills](https://img.shields.io/badge/Skills-44-2ea44f)
 ![Install](https://img.shields.io/badge/Install-copy_skills%2F*-1f6feb)
 ![Language](https://img.shields.io/badge/Language-English--first-ffb000)
-![Focus](https://img.shields.io/badge/Focus-CS_Research_Workflows-0969da)
+![Focus](https://img.shields.io/badge/Focus-CS_LLM_Agent_Workflows-0969da)
 
-A curated collection of reusable skills for computer science research, academic writing, experiment workflows, and research-oriented software engineering.
+A curated collection of reusable skills for LLM agents working on computer science research, academic writing, experiment workflows, and research-oriented software engineering.
 
 **Language:** **English** · [中文](README.zh-CN.md)
 
@@ -108,32 +108,32 @@ Copy the folders inside [`skills/`](skills/) to one of the supported skill direc
 **Example: global install for Cursor**
 
 ```bash
-cp -r Computer-science-scientific-skills/skills/* ~/.cursor/skills/
+cp -r Computer-science-llm-agent-skills/skills/* ~/.cursor/skills/
 ```
 
 **Example: global install for Claude Code**
 
 ```bash
-cp -r Computer-science-scientific-skills/skills/* ~/.claude/skills/
+cp -r Computer-science-llm-agent-skills/skills/* ~/.claude/skills/
 ```
 
 **Example: global install for Codex**
 
 ```bash
-cp -r Computer-science-scientific-skills/skills/* ~/.codex/skills/
+cp -r Computer-science-llm-agent-skills/skills/* ~/.codex/skills/
 ```
 
 **Example: global install for Gemini CLI**
 
 ```bash
-cp -r Computer-science-scientific-skills/skills/* ~/.gemini/skills/
+cp -r Computer-science-llm-agent-skills/skills/* ~/.gemini/skills/
 ```
 
 **Example: project-level install**
 
 ```bash
 mkdir -p .codex/skills
-cp -r /path/to/Computer-science-scientific-skills/skills/* .codex/skills/
+cp -r /path/to/Computer-science-llm-agent-skills/skills/* .codex/skills/
 ```
 
 If you prefer a smaller setup, copy only selected skill folders instead of the whole directory.

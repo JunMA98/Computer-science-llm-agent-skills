@@ -1,11 +1,11 @@
-# Computer Science Scientific Skills
+# Computer Science LLM Agent Skills
 
 ![Skills](https://img.shields.io/badge/Skills-44-2ea44f)
 ![Install](https://img.shields.io/badge/Install-copy_skills%2F*-1f6feb)
 ![Language](https://img.shields.io/badge/Language-Chinese--mirror-ffb000)
-![Focus](https://img.shields.io/badge/Focus-CS_Research_Workflows-0969da)
+![Focus](https://img.shields.io/badge/Focus-CS_LLM_Agent_Workflows-0969da)
 
-一个面向计算机科研、学术写作、实验工作流与研究型软件工程的 skills 仓库。
+一个面向 LLM agent 的计算机科研、学术写作、实验工作流与研究型软件工程 skills 仓库。
 
 **语言：** [English](README.md) · **中文**
 
@@ -113,32 +113,32 @@
 **示例：给 Cursor 做全局安装**
 
 ```bash
-cp -r Computer-science-scientific-skills/skills/* ~/.cursor/skills/
+cp -r Computer-science-llm-agent-skills/skills/* ~/.cursor/skills/
 ```
 
 **示例：给 Claude Code 做全局安装**
 
 ```bash
-cp -r Computer-science-scientific-skills/skills/* ~/.claude/skills/
+cp -r Computer-science-llm-agent-skills/skills/* ~/.claude/skills/
 ```
 
 **示例：给 Codex 做全局安装**
 
 ```bash
-cp -r Computer-science-scientific-skills/skills/* ~/.codex/skills/
+cp -r Computer-science-llm-agent-skills/skills/* ~/.codex/skills/
 ```
 
 **示例：给 Gemini CLI 做全局安装**
 
 ```bash
-cp -r Computer-science-scientific-skills/skills/* ~/.gemini/skills/
+cp -r Computer-science-llm-agent-skills/skills/* ~/.gemini/skills/
 ```
 
 **示例：项目级安装**
 
 ```bash
 mkdir -p .codex/skills
-cp -r /path/to/Computer-science-scientific-skills/skills/* .codex/skills/
+cp -r /path/to/Computer-science-llm-agent-skills/skills/* .codex/skills/
 ```
 
 如果你更想要一个精简安装，也可以只复制部分 skill 文件夹，而不是整个目录。
